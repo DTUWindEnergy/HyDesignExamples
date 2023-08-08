@@ -1,0 +1,13 @@
+name: test_env_10
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - finitediff
+  - smt
+  - pip
+  - pip:
+    - git+https://gitlab.windenergy.dtu.dk/TOPFARM/hydesign.git
+
+# use with:
+# conda env create --file environment.yml
