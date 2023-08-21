@@ -7,7 +7,7 @@ dependencies:
   - smt
   - pip
   - pip:
-    - git+https://gitlab.windenergy.dtu.dk/TOPFARM/hydesign.git
+    - hydesign>=1.2
 
 # use with:
 # conda env create --file environment.yml
